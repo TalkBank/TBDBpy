@@ -95,7 +95,7 @@ tbdb.validPath(['childes', 'childes', 'somethingThatDoesNotExist'])
 
 ```
 
-To access clinical collections, use the argument 'auth': True*. A dialog
+To access clinical collections, use the argument *'auth': True*. A dialog
 will ask you to enter the clinical bank you are trying to access and to
 enter the correct username and password for that database.  If credentials
 are incorrect, a response describing the error will be returned.
