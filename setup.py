@@ -3,7 +3,7 @@ from setuptools import setup
 setup(name='tbdb',
       version='0.0.8',
       description='Python API to TalkBankDB.',
-      url='https://github.com/jkau1/TBDBpy',
+      url='https://github.com/TalkBank/TBDBpy',
       author='John Kowalski',
       license='LICENSE',
       packages=['tbdb'],
