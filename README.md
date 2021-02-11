@@ -116,9 +116,3 @@ aphasia_transcrips = tbdb.getTranscripts(
  'corpora': [['aphasia', 'English', 'Aphasia', 'Adler']], 
  'auth': True})
 ```
-
-
-First Header | Second Header | First Header |  Second Header | First Header |  Second Header | First Header |  Second Header | First Header |  Second Header
------------- | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | -------------
-Content cell 1 | Content cell 2 | Content cell 1 | Content cell 2 | Content cell 1 | Content cell 2 | Content cell 1 | Content cell 2 | Content cell 1 | Content cell 2 
-Content cell 1 | Content cell 2 | Content cell 1 | Content cell 2 | Content cell 1 | Content cell 2 | Content cell 1 | Content cell 2 | Content cell 1 | Content cell 2 
