@@ -26,8 +26,9 @@ import getpass
 
 
 ########################################
-# Private methods.
+# Begin Private Functions.
 ########################################
+
 def _makeReq(queryParams, route, DB_query):
     """Processes request/response from each API function to TalkBankDB."""
 
@@ -78,10 +79,12 @@ def _authenticate():
         if another.lower() != 'y':
             return authReqs
 
+         
 
 #######################################
-# Public API methods.
+# Begin Public API.
 ########################################
+
 def getTranscripts(queryParams, auth=False):
     """
     Get transcript metadata where each row represents a transcript.
