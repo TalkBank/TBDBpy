@@ -70,8 +70,8 @@ two members:
 ``` python
 {'colHeadings': [], 'data': [[]]}
 ```
-    - colHeadings: List of strings describing columns in data.
-    - data: List of lists, where each list represents a table row.
+* colHeadings: List of strings describing columns in data.
+* data: List of lists, where each list represents a table row.
 
 Additional functions return metadata about TalkBankDB:
 ```python
