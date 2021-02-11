@@ -5,17 +5,6 @@ Python API to TalkBankDB
 The TBDBpy package provides access to TalkBankDB data
 from Python.
 
-TalkBank (www.talkbank.org) is a vast collection of audio and video
-recordings across more than 50 languages linked to richly annotated
-transcriptions. The goal of TalkBank is to foster fundamental research
-in the study of human communication with an emphasis on spoken
-communication. The collection includes repositories in 14 research
-areas, including language development, adult conversation,
-multilingualism, and disorders which affect communication. These
-collections are freely available to support the research of human
-language and communication. TalkBank has been funded by the National
-Science Foundation and National Institute of Health since 1999.
-
 TalkBankDB (www.talkbank.org/DB) is a database and set of tools for
 exploring TalkBank’s media and transcripts, specify data to be
 extracted, and pass these data on to statistical programs for further
