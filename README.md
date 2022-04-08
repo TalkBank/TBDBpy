@@ -95,8 +95,8 @@ tbdb.validPath(['childes', 'childes', 'somethingThatDoesNotExist'])
 
 ```
 
-To access protected collections, include a final *True* argument value for auth. With ths final *True* param, 
-a dialog will ask you to enter the protected collection you are trying to access and to
+To access protected collections, include a final *True* parameter value for auth. With this final *True* param, 
+a dialog will ask for the protected collection you are trying to access and to
 enter a username and password for it.  If credentials are incorrect, a response describing the error is returned.
 
 ``` python
