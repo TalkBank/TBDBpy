@@ -95,10 +95,9 @@ tbdb.validPath(['childes', 'childes', 'somethingThatDoesNotExist'])
 
 ```
 
-To access clinical collections, include final argument value for auth to *True*. With ths final param passed as True, 
-a dialog will ask you to enter the clinical bank you are trying to access and to
-enter a username and password for that corpus.  If credentials
-are incorrect, a response describing the error is returned.
+To access protected collections, include a final *True* argument value for auth. With ths final *True* param, 
+a dialog will ask you to enter the protected collection you are trying to access and to
+enter a username and password for it.  If credentials are incorrect, a response describing the error is returned.
 
 ``` python
 aphasia_transcrips = tbdb.getTranscripts({'corpusName': 'aphasia', 'corpora': [['aphasia', 'English', 'Aphasia', 'Adler']]}, True)
