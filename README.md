@@ -95,14 +95,11 @@ tbdb.validPath(['childes', 'childes', 'somethingThatDoesNotExist'])
 
 ```
 
-To access clinical collections, use the argument *'auth': True*. A dialog
-will ask you to enter the clinical bank you are trying to access and to
-enter the correct username and password for that database.  If credentials
+To access clinical collections, include final argument value for auth to *True*. With ths final param passed as True, 
+a dialog will ask you to enter the clinical bank you are trying to access and to
+enter a username and password for that corpus.  If credentials
 are incorrect, a response describing the error is returned.
 
 ``` python
-aphasia_transcrips = tbdb.getTranscripts(
-{'corpusName': 'aphasia', 
- 'corpora': [['aphasia', 'English', 'Aphasia', 'Adler']], 
- 'auth': True})
+aphasia_transcrips = tbdb.getTranscripts({'corpusName': 'aphasia', 'corpora': [['aphasia', 'English', 'Aphasia', 'Adler']]}, True)
 ```
